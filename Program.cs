@@ -1,6 +1,6 @@
 ﻿using RockPaperScissors;
 
-SimpleGameManager gm = new SimpleGameManager();
+GameManager gm = new GameManager(new HumanPlayer(), new ComputerPlayer());
 
 do
 {
